@@ -72,7 +72,69 @@ h2{
     font-size: 1.8rem;
 }
 
-.presentacion{
+.parrafo{
     margin: 15px 0px;
     color: rgb(217, 217, 217);
+}
+
+
+
+
+.habilidad{
+    text-align: center;
+}
+
+.stack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stack div {
+    margin: 10px 10px;
+    border: 3px solid rgba(2, 103, 234, 0.783);
+    border-radius: 4px;
+    height: 100px;
+}
+
+.stack div img {
+    width: 70px;
+    padding: 15px;
+    /* background-color: rgb(231, 0, 0); */
+}
+
+
+
+
+.linea{
+    border: 1px solid rgb(32, 183, 220);
+    box-shadow: 0 0px 9px rgb(50, 202, 241);
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .listaNav ul {
+        margin-top: 10px;
+    }
+
+    .listaNav ul li {
+        margin: 0px 10px;
+    }
+
+    .contenido{
+        padding: 15px;
+    }
+
+    body{
+        width: 100%;
+    }
 }
