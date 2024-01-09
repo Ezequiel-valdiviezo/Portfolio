@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #050216;
+}
+
+body {
+    margin: auto;
+    width: 700px;
+}
+
+header {
+    
+}
+
+.nav {
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(47, 165, 244);
+}
+
+#portfolio {
+    color: rgb(47, 165, 244);
+}
+
+.listaNav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.listaNav ul li{
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: border 0.5s ease, padding 0.3s ease, box-shadow 0.5s ease;
+}
+
+.listaNav ul li:hover{
+    color: rgb(47, 165, 244);
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid rgb(47, 165, 244);
+    box-shadow: 0 0px 10px rgb(47, 165, 244);
+    border-radius: 10px;
+}
+
+main{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 0px; 
+}
+
+.contenido{
+
+}
+
+h2{
+    font-size: 3.5rem;
+    margin: 10px 0px
+}
+
+#nombreContenido{
+    color: rgb(47, 165, 244);
+}
+
+#frontend{
+    font-size: 1.8rem;
+}
+
+.presentacion{
+    margin: 15px 0px;
+    color: rgb(217, 217, 217);
+}
