@@ -9,6 +9,7 @@ body {
     width: 700px;
 }
 
+/* HEADER */
 header {
     
 }
@@ -54,11 +55,7 @@ main{
     text-align: center;
     padding: 10px 0px; 
 }
-
-.contenido{
-
-}
-
+/* HOME */
 h2{
     font-size: 3.5rem;
     margin: 10px 0px
@@ -78,12 +75,14 @@ h2{
 }
 
 
-
+/* HABILIDADES */
 
 .habilidad{
     text-align: center;
 }
-
+.textStack{
+    display: none;
+}
 .stack{
     display: flex;
     justify-content: center;
@@ -100,12 +99,49 @@ h2{
 .stack div img {
     width: 70px;
     padding: 15px;
-    /* background-color: rgb(231, 0, 0); */
+}
+
+.stack .html:hover .imghtml{
+    background-color: rgb(249, 171, 81);
+}
+.stack .html:hover{
+    height: 130px;
+    background-color: rgb(249, 171, 81);
+    transform: scale(1.2);
+    border: 3px solid rgb(182, 80, 2);
+    box-shadow: 0 0px 10px rgb(241, 194, 92);
+}
+
+
+.stack .css:hover .imgcss{
+    background-color: rgb(152, 179, 246);
+}
+.stack .css:hover{
+    height: 130px;
+    background-color: rgb(152, 179, 246);
+    transform: scale(1.2);
+    border: 3px solid rgb(9, 0, 179);
+    box-shadow: 0 0px 10px rgb(176, 198, 254);
+}
+
+
+
+.stack div:hover .textStack {
+    display: block;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+/* SOBRE MI */
 .linea{
     border: 1px solid rgb(32, 183, 220);
     box-shadow: 0 0px 9px rgb(50, 202, 241);
