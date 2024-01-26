@@ -94,6 +94,8 @@ h2{
     border: 3px solid rgba(2, 103, 234, 0.783);
     border-radius: 4px;
     height: 100px;
+    transition: height 0.5s ease, transform 0.5s ease, border 0.5s ease, box-shadow 0.5s ease;
+
 }
 
 .stack div img {
@@ -123,6 +125,151 @@ h2{
     border: 3px solid rgb(9, 0, 179);
     box-shadow: 0 0px 10px rgb(176, 198, 254);
 }
+
+
+.stack .js:hover .imgjs{
+    background-color: rgb(145, 147, 16);
+}
+.stack .js:hover{
+    height: 130px;
+    background-color: rgb(145, 147, 16);
+    transform: scale(1.2);
+    border: 3px solid rgb(255, 247, 30);
+    box-shadow: 0 0px 10px rgb(239, 255, 60);
+}
+
+
+.stack .react:hover .imgreact{
+    background-color: rgb(6, 49, 73);
+}
+.stack .react:hover{
+    height: 130px;
+    background-color: rgb(6, 49, 73);
+    transform: scale(1.2);
+    border: 3px solid rgb(70, 190, 255);
+    box-shadow: 0 0px 10px rgb(70, 190, 255);
+}
+
+
+.stack .node:hover .imgnode{
+    background-color: rgb(43, 112, 24);
+}
+.stack .node:hover{
+    height: 130px;
+    background-color: rgb(43, 112, 24);
+    transform: scale(1.2);
+    border: 3px solid rgb(84, 255, 46);
+    box-shadow: 0 0px 10px rgb(65, 253, 23);
+}
+
+
+.stack .mongo:hover .imgmongo{
+    background-color: rgb(25, 70, 12);
+}
+.stack .mongo:hover{
+    height: 130px;
+    background-color: rgb(25, 70, 12);
+    transform: scale(1.2);
+    border: 3px solid rgb(84, 255, 46);
+    box-shadow: 0 0px 10px rgb(65, 253, 23);
+}
+
+
+.stack .php:hover .imgphp{
+    background-color: rgb(0, 71, 125);
+}
+.stack .php:hover{
+    height: 130px;
+    background-color: rgb(0, 71, 125);
+    transform: scale(1.2);
+    border: 3px solid rgb(33, 121, 243);
+    box-shadow: 0 0px 10px rgb(43, 107, 255);
+}
+
+
+.stack .mysql:hover .imgmysql{
+    background-color: rgb(0, 71, 125);
+}
+.stack .mysql:hover{
+    height: 130px;
+    background-color: rgb(0, 71, 125);
+    transform: scale(1.2);
+    border: 3px solid rgb(33, 121, 243);
+    box-shadow: 0 0px 10px rgb(43, 107, 255);
+}
+
+
+.stack .photoshop:hover .imgphotoshop{
+    background-color: rgb(0, 71, 125);
+}
+.stack .photoshop:hover{
+    height: 130px;
+    background-color: rgb(0, 71, 125);
+    transform: scale(1.2);
+    border: 3px solid rgb(33, 121, 243);
+    box-shadow: 0 0px 10px rgb(43, 107, 255);
+}
+
+
+.stack .ilustrator:hover .imgilustrator{
+    background-color: rgb(242, 146, 67);
+}
+.stack .ilustrator:hover{
+    height: 130px;
+    background-color: rgb(242, 146, 67);
+    transform: scale(1.2);
+    border: 3px solid rgb(255, 189, 135);
+    box-shadow: 0 0px 10px rgb(246, 136, 47);
+}
+
+
+.stack .wordpress:hover .imgwordpress{
+    background-color: rgb(2, 29, 49);
+}
+.stack .wordpress:hover{
+    height: 130px;
+    background-color: rgb(2, 29, 49);
+    transform: scale(1.2);
+    border: 3px solid rgb(33, 121, 243);
+    box-shadow: 0 0px 10px rgb(43, 107, 255);
+}
+
+
+.stack .bootstrap:hover .imgbootstrap{
+    background-color: rgb(39, 5, 39);
+}
+.stack .bootstrap:hover{
+    height: 130px;
+    background-color: rgb(39, 5, 39);
+    transform: scale(1.2);
+    border: 3px solid rgb(158, 0, 126);
+    box-shadow: 0 0px 10px rgb(255, 21, 239);
+}
+
+
+.stack .tailwind:hover .imgtailwind{
+    background-color: rgb(16, 17, 106);
+}
+.stack .tailwind:hover{
+    height: 130px;
+    background-color: rgb(16, 17, 106);
+    transform: scale(1.2);
+    border: 3px solid rgb(15, 121, 251);
+    box-shadow: 0 0px 10px rgb(14, 116, 240);
+}
+
+
+.stack .ux:hover .imgux{
+    background-color: rgb(78, 79, 141);
+}
+.stack .ux:hover{
+    height: 130px;
+    background-color: rgb(78, 79, 141);
+    transform: scale(1.2);
+    border: 3px solid rgb(15, 121, 251);
+    box-shadow: 0 0px 10px rgb(14, 116, 240);
+}
+
 
 
 
