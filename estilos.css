@@ -1,17 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #050216;
+    /* background-color: #050216; */
 }
 
 body {
     margin: auto;
     width: 700px;
+    /* background-image: url(./img/fondoLogin2.jpg); */
+    background: linear-gradient(rgba(40, 2, 35, 0.898), rgba(34, 2, 24, 0.907)), url('./img/fondoLogin2.jpg');
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    /* height: 91vh; */
 }
 
-/* HEADER */
-header {
-    
+.contenido{
 }
 
 .nav {
@@ -32,11 +37,13 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .listaNav ul li{
     margin: 0px 20px;
     cursor: pointer;
+    border-radius: 10px;
     transition: border 0.5s ease, padding 0.3s ease, box-shadow 0.5s ease;
 }
 
@@ -320,4 +327,24 @@ h2{
     body{
         width: 100%;
     }
+}
+
+/* Conctacos */
+.contactos{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactos div{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.contactos img{
+    margin-right:7px;
+}
+.contactos p a{
+    /* text-decoration: none; */
+    color: white;
 }
