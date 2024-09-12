@@ -218,6 +218,18 @@ h2{
 }
 
 
+.stack .laravel:hover .imglaravel{
+    background-color: rgb(217, 153, 153);
+}
+.stack .laravel:hover{
+    height: 130px;
+    background-color: rgb(217, 153, 153);
+    transform: scale(1.2);
+    border: 3px solid rgb(166, 20, 20);
+    box-shadow: 0 0px 10px rgb(145, 21, 21);
+}
+
+
 .stack .mysql:hover .imgmysql{
     background-color: rgb(0, 71, 125);
 }
