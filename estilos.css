@@ -1,19 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-color: #050216; */
 }
 
 body {
     margin: auto;
-    width: 700px;
-    /* background: linear-gradient(rgba(40, 2, 35, 0.898), rgba(34, 2, 24, 0.907)), url('./img/fondoLogin2.jpg'); */
+    width: 1000px;
     background: linear-gradient(rgba(0, 0, 0, 0.778), rgba(34, 2, 24, 0.907)), url('./img/fondoLogin2.jpg');
     background-size: cover;  
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    /* height: 91vh; */
 }
 
 .contenido{
@@ -40,22 +37,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
-
-/* .listaNav ul li{
-    margin: 0px 20px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: border 0.5s ease, padding 0.3s ease, box-shadow 0.5s ease;
-}
-
-.listaNav ul li:hover{
-    color: rgb(47, 165, 244);
-    font-weight: bold;
-    padding: 8px;
-    border: 1px solid rgb(47, 165, 244);
-    box-shadow: 0 0px 10px rgb(47, 165, 244);
-    border-radius: 10px;
-} */
 
 .listaNav ul li {
     margin: 0px 20px;
@@ -110,6 +91,8 @@ h2{
 
 .habilidad{
     text-align: center;
+    max-width: 700px;
+    margin: auto;
 }
 .textStack{
     display: none;
@@ -130,7 +113,7 @@ h2{
 }
 
 .stack div img {
-    width: 70px;
+    width: 95px;
     padding: 15px;
 }
 
@@ -321,7 +304,10 @@ h2{
     background-color: rgba(41, 14, 34, 0.623);
 }
 
-
+.certificaciones div{
+    text-align: left;
+    margin-top: 25px;
+}
 
 
 
@@ -341,6 +327,10 @@ h2{
     border-radius: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.sobreMi{
+    text-align: left;
 }
 
 
