@@ -17,46 +17,54 @@ body {
     padding-top: 30px;
 }
 
-.nav {
+/* .nav {
     color: white;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid rgb(47, 165, 244);
-}
+} */
 
-#portfolio {
-    color: rgb(47, 165, 244);
-}
-
-.listaNav ul{
+/* .listaNav ul{
     text-decoration: none;
     list-style: none;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+} */
+
+nav{
+    position: fixed;
+}
+nav div div div{
+    /* background-color: rgba(220, 13, 224, 0.481); */
+    background-color: rgba(254, 3, 191, 0.157);
+    padding: 10px;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px 1px white;
 }
 
-.listaNav ul li {
+nav div div .nav-link {
     margin: 0px 20px;
     cursor: pointer;
     border-radius: 10px;
     position: relative;
 }
 
-.listaNav ul li::before {
+nav div div .nav-link::before {
     content: '';
     position: absolute;
     left: 0;
     bottom: -5px; /* Ajusta esto según el espacio que desees entre el texto y la línea */
     width: 0%;
     height: 3px; /* Ajusta el grosor de la línea aquí */
-    background-color: rgb(44, 209, 255); /* Color de la línea */
+    background-color: rgb(193, 79, 216); /* Color de la línea */
     transition: width 0.5s ease-in-out;
 }
 
-.listaNav ul li:hover::before {
+nav div div .nav-link:hover::before {
     width: 100%;
 }
 
@@ -64,7 +72,7 @@ body {
 main{
     color: white;
     font-size: 1.2rem;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px 0px; 
 }
 /* HOME */
@@ -74,7 +82,7 @@ h2{
 }
 
 #nombreContenido{
-    color: rgb(47, 165, 244);
+    color: rgb(234, 20, 227);
 }
 
 #frontend{
@@ -105,7 +113,7 @@ h2{
 
 .stack div {
     margin: 10px 10px;
-    border: 3px solid rgba(2, 103, 234, 0.783);
+    border: 3px solid rgba(158, 3, 135, 0.783);
     border-radius: 4px;
     height: 100px;
     transition: height 0.5s ease, transform 0.5s ease, border 0.5s ease, box-shadow 0.5s ease;
@@ -320,8 +328,8 @@ h2{
 
 /* SOBRE MI */
 .linea{
-    border: 1px solid rgb(32, 183, 220);
-    box-shadow: 0 0px 9px rgb(50, 202, 241);
+    border: 1px solid rgb(232, 37, 239);
+    box-shadow: 0 0px 9px rgb(226, 82, 231);
     width: 50%;
     margin: auto;
     border-radius: 50px;
@@ -334,18 +342,7 @@ h2{
 }
 
 
-@media only screen and (max-width: 700px) {
-    .nav {
-        flex-direction: column;
-    }
-
-    .listaNav ul {
-        margin-top: 10px;
-    }
-
-    .listaNav ul li {
-        margin: 0px 10px;
-    }
+@media only screen and (max-width: 767px) {
 
     .contenido{
         padding: 15px;
@@ -374,4 +371,18 @@ h2{
 .contactos p a{
     /* text-decoration: none; */
     color: white;
+}
+
+@keyframes jump {
+    0%, 100% {
+      transform: translateY(0); /* Posición inicial y final */
+    }
+    50% {
+      transform: translateY(-30px); /* Mover la imagen hacia arriba */
+    }
+  }
+  
+  .jump {
+    animation: jump 2s ease-in-out infinite; /* Aplicar la animación */
+    width: 100%;
 }

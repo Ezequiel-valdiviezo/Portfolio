@@ -10,10 +10,7 @@
 </head>
 <body class="m-auto">
     <header>
-        <div class="nav">
-            <div>
-                <h1>Mi <span id="portfolio">Portfolio</span></h1>
-            </div>
+        <!-- <div class="nav">
             <div class="listaNav">
                 <ul>
                     <li>Inicio</li>
@@ -23,24 +20,43 @@
                     <li>Conctacto</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
+        <nav class="navbar navbar-expand-md fixed-top mt-2">
+            <div class="container-fluid">
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav m-auto">
+                  <a class="nav-link text-white" href="#">Inicio</a>
+                  <a class="nav-link text-white" href="#">Sobre mi</a>
+                  <a class="nav-link text-white" href="#">Habilidades</a>
+                  <a class="nav-link text-white" href="#">Proyectos</a>
+                  <a class="nav-link text-white" href="#">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
+    <main class="mt-5">
         <div class="contenido">
-            <div class="Inicio">
-                <p>¡Bienvenido!</p>
-        
-                <h2>Soy <span id="nombreContenido">Ezequiel Valdiviezo</span></h2>
-                <p id="frontend">Desarrollador Web</p>
-        
-                <!-- <p class="parrafo">Responsable de implementar los diseños y conceptos que desees. Esta implementación se puede lograr utilizando varios lenguajes. Mis favoritos para programar como Frontend Developer son HTML, CSS, JavaScript y React</p> -->
-                <!-- <div class="linea"></div> -->
-                <div class="sobreMi">
-                    <p class="parrafo">Apasionado por el diseño y la creación de experiencias digitales. Disfruto aprender nuevas tecnologías y herramientas que me ayuden a mejorar día a día.</p>
-                    <p class="parrafo">Tengo 21 años, soy Técnico Superior en Diseño y Desarrollo Web, disfruto mucho entrenar, jugué toda mi vida al futbol, me gusta la música, videojuegos y pasar tiempo en familia.</p>
-                    <div class="linea"></div>
+            <div class="Inicio d-flex flex-wrap pt-5">
+                <div class="col-md-7">
+                    <p>¡Bienvenido a mi portfolio!</p>
+                    
+                    <h2>Soy <span id="nombreContenido">Ezequiel Valdiviezo</span></h2>
+                    <p id="frontend">Desarrollador Web</p>
+                    
+                    <div class="sobreMi">
+                        <p class="parrafo">Apasionado por el diseño y la creación de experiencias digitales. Disfruto aprender nuevas tecnologías y herramientas que me ayuden a mejorar día a día.</p>
+                        <p class="parrafo">Tengo 21 años, soy Técnico Superior en Diseño y Desarrollo Web, disfruto mucho entrenar, jugué toda mi vida al futbol, me gusta la música, videojuegos y pasar tiempo en familia.</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="./img/prueba1.png" alt="" class="jump">
                 </div>
             </div>
+            <div class="linea"></div>
 
             <div class="habilidad">
                 <h3>Conocimientos</h3>
@@ -109,7 +125,7 @@
                 <div class="linea"></div>
             </div>
 
-            <div class="certificaciones">
+            <div class="certificaciones text-center">
                 <h3>Certificaciones</h3>
                 <div>
                     <h4>Técnico Superior en Diseño y Desarrollo Web - Escuela Da Vinci</h4>
@@ -127,13 +143,13 @@
                 <div class="linea"></div>
             </div>
 
-            <div class="proyectos">
+            <div class="proyectos text-center">
                 <h3>Proyectos</h3>
 
                 <div class="linea"></div>
             </div>
 
-            <div class="contacto">
+            <div class="contacto text-center">
                 <h3>Contactos</h3>
 
                 <div class="contactos">
