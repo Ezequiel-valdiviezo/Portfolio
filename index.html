@@ -10,17 +10,6 @@
 </head>
 <body class="m-auto">
     <header>
-        <!-- <div class="nav">
-            <div class="listaNav">
-                <ul>
-                    <li>Inicio</li>
-                    <li>Sobre mi</li>
-                    <li>Habilidades</li>
-                    <li>Proyectos</li>
-                    <li>Conctacto</li>
-                </ul>
-            </div>
-        </div> -->
         <nav class="navbar navbar-expand-md fixed-top mt-2">
             <div class="container-fluid">
               <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,11 +17,11 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto">
-                  <a class="nav-link text-white" href="#">Inicio</a>
-                  <a class="nav-link text-white" href="#">Sobre mi</a>
-                  <a class="nav-link text-white" href="#">Habilidades</a>
-                  <a class="nav-link text-white" href="#">Proyectos</a>
-                  <a class="nav-link text-white" href="#">Contacto</a>
+                  <a class="nav-link text-white" href="#inicio">Inicio</a>
+                  <a class="nav-link text-white" href="#mi">Sobre mi</a>
+                  <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+                  <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+                  <a class="nav-link text-white" href="#contacto">Contacto</a>
                 </div>
               </div>
             </div>
@@ -40,8 +29,8 @@
     </header>
     <main class="mt-5">
         <div class="contenido">
-            <div class="Inicio d-flex flex-wrap pt-5 px-3">
-                <div class="col-md-7">
+            <div id="inicio" class="Inicio d-flex flex-wrap pt-5 px-3">
+                <div id="mi" class="col-md-7">
                     <p>¡Bienvenido a mi portfolio!</p>
                     
                     <h2>Soy <span id="nombreContenido">Ezequiel Valdiviezo</span></h2>
@@ -58,7 +47,7 @@
             </div>
             <div class="linea"></div>
 
-            <div class="habilidad">
+            <div id="habilidades" class="habilidad">
                 <h3>Conocimientos</h3>
                 <div class="stack">
                     <div class="html">
@@ -147,7 +136,7 @@
                 <div class="linea"></div>
             </div>
 
-            <div class="proyectos text-center">
+            <div id="proyectos" class="proyectos text-center">
                 <h3>Proyectos</h3>
             
                 <div class="proyectos d-flex flex-wrap justify-content-center">
@@ -187,7 +176,7 @@
 
             <div class="linea"></div>
 
-            <div class="contacto text-center">
+            <div id="contacto" class="contacto text-center">
                 <h3>Contacto</h3>
 
                 <div class="contactos d-flex flex-wrap justify-content-center">
