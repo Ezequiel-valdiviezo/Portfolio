@@ -75,6 +75,20 @@ main{
     /* text-align: center; */
     padding: 10px 0px; 
 }
+
+.boton{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: solid 2px rgb(193, 79, 216);
+    background-color: rgb(234, 20, 227);
+    color: white;
+    font-weight: bold;
+}
+.boton:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(234, 20, 227, 0.661);
+}
+
 /* HOME */
 h2{
     font-size: 3.5rem;
