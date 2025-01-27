@@ -372,6 +372,45 @@ h2{
 
 
 
+/* Experiencias */
+.lineaLeft {
+    position: relative; /* Necesario para posicionar elementos hijos */
+    border-left: 4px solid rgb(232, 37, 239); 
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    padding: 20px;
+}
+.lineaLeft::before,
+.lineaLeft::after {
+    content: ""; /* Genera los círculos */
+    position: absolute;
+    width: 20px; /* Tamaño del círculo */
+    height: 20px;
+    background-color: rgb(232, 37, 239); /* Color de las pelotas */
+    border-radius: 50%; /* Hace que sean círculos */
+}
+
+.lineaLeft::before {
+    top: 80px; /* Posición inicial, un poco abajo del inicio */
+    left: -12px; /* A la izquierda del borde */
+}
+
+.lineaLeft::after {
+    top: 60%; /* A la mitad del div */
+    transform: translateY(-50%); /* Centra verticalmente */
+    left: -12px; /* A la izquierda del borde */
+}
+
+.lineaLeft div{
+    border-top: 2px solid rgb(232, 37, 239);
+    border-right: 2px solid rgb(232, 37, 239);
+    border-bottom: 2px solid rgb(232, 37, 239);
+    border-left: none; 
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+}
 
 
 
